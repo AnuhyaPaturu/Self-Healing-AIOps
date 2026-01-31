@@ -1,0 +1,7 @@
+prometheus-api-client
+scikit-learn
+numpy
+pandas
+streamlit
+plotly
+requests
