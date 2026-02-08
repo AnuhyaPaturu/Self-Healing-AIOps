@@ -5,4 +5,3 @@ pandas
 streamlit
 plotly
 requests
-altair<5

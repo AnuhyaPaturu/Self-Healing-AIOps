@@ -2,6 +2,6 @@ global:
   scrape_interval: 5s # Check the "health" every 5 seconds
 
 scrape_configs:
-  - job_name: 'node_exporter'
+  - job_name: 'node'
     static_configs:
-      - targets: ['node-exporter:9100']
+      - targets: ['host.docker.internal:9100']
